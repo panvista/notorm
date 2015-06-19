@@ -36,6 +36,9 @@ abstract class NotORM_Abstract {
 	protected function access($key, $delete = false) {
 	}
 	
+	public function getConnection() {
+	    return $this->connection;
+	}
 }
 
 
